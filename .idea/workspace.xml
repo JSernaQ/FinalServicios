@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="344f5b8f-f92c-469f-9e37-f20a15f7e45c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/controller/AlumnoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/repository/AlumnoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/service/AlumnoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/service/AlumnoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/main/java/com/co/serna/gateway/MicroservicioGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/src/test/java/com/co/serna/gateway/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroservicioSpringCommons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicioSpringCommons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroservicioSpringCommons/src/main/java/com/serna/commons/service/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicioSpringCommons/src/main/java/com/serna/commons/service/CommonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroservicioSpringCommons/src/main/java/com/serna/commons/service/CommonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicioSpringCommons/src/main/java/com/serna/commons/service/CommonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/com/co/serna/microservicio/eureka/MicroservicioEurekaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/test/java/com/co/serna/microservicio/eureka/MicroservicioEurekaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/src/main/java/com/co/serna/usuario/MicroservicioUsuarioApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/src/main/java/com/co/serna/usuario/controller/AlumnoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/src/main/java/com/co/serna/usuario/entity/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/src/main/java/com/co/serna/usuario/repository/AlumnoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/src/main/java/com/co/serna/usuario/service/AlumnoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/src/main/java/com/co/serna/usuario/service/AlumnoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios/src/test/java/com/co/serna/usuario/MicroservicioUsuarioApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2p8aGf5I3Qmpww0l4NFGGiYw1bR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApiGatewayApplication.executor": "Run",
+    "Application.EurekaServerApplication.executor": "Run",
+    "Application.MicroservicioUsuariosApplication.executor": "Run",
+    "Maven.api-gateway [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Juan/Desktop/_/Final/MicroservicioSpringCommons/src/main/java/com/serna/commons/service",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Juan\Desktop\_\Final\MicroservicioSpringCommons\src\main\java\com\serna\commons\service" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.serna.gateway.ApiGatewayApplication" />
+      <module name="api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.serna.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coom.serna.eureka.EurekaServerApplication" />
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coom.serna.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicioUsuariosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.serna.usuario.MicroservicioUsuariosApplication" />
+      <module name="MicroservicioUsuarios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.serna.usuario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.MicroservicioUsuariosApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="344f5b8f-f92c-469f-9e37-f20a15f7e45c" name="Changes" comment="" />
+      <created>1732150068501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732150068501</updated>
+    </task>
+    <servers />
+  </component>
+</project>
