@@ -1,5 +1,6 @@
 package com.serna.usuario.controller;
 
+import com.serna.commons.controller.CommonController;
 import com.serna.usuario.entity.Alumno;
 import com.serna.usuario.service.AlumnoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,38 +15,15 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/alumnos")
-public class AlumnoController {
+public class AlumnoController extends CommonController<Alumno, AlumnoService> {
 
     @Autowired
-    private AlumnoService service;
-
+    public AlumnoController(AlumnoService service) {
+        super(service);
+    }
 
     @Value("${config.balanceador.test}")
     private String balanceadorTest;
-
-    @GetMapping
-    public ResponseEntity<?> listarAlumno() {
-        return ResponseEntity.ok().body(service.findAll());
-    }
-
-    @GetMapping("/{id}")
-    public ResponseEntity<?> ver(@PathVariable Long id) {
-        Optional<Alumno> ob = service.findById(id);
-
-        if (ob.isEmpty()) {
-            Map<String, String> response = new HashMap<>();
-            response.put("message", "Alumno no encontrado con el ID: " + id);
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
-        }
-
-        return ResponseEntity.ok().body(ob.get());
-    }
-
-    @PostMapping
-    public ResponseEntity<?> crear(@RequestBody Alumno alumno) {
-        Alumno alumnoDb = service.save(alumno);
-        return ResponseEntity.status(HttpStatus.CREATED).body(alumnoDb);
-    }
 
     @PutMapping("/{id}")
     public ResponseEntity<?> editar(@PathVariable Long id, @RequestBody Alumno alumno) {
@@ -63,22 +41,6 @@ public class AlumnoController {
         alumnoDb.setEmail(alumno.getEmail());
 
         return ResponseEntity.status(HttpStatus.CREATED).body(service.save(alumnoDb));
-    }
-
-    @DeleteMapping("/{id}")
-    public ResponseEntity<?> eliminar(@PathVariable Long id) {
-        Optional<Alumno> ob = service.findById(id);
-
-        if (ob.isEmpty()) {
-            Map<String, String> response = new HashMap<>();
-            response.put("message", "Alumno no encontrado con el ID: " + id);
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
-        }
-
-        service.deleteById(id);
-        Map<String, String> response = new HashMap<>();
-        response.put("message", "Alumno eliminado con éxito con el ID: " + id);
-        return ResponseEntity.ok(response);
     }
 
     @GetMapping("/test-balanceador")

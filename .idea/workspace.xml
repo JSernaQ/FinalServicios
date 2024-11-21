@@ -5,49 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="344f5b8f-f92c-469f-9e37-f20a15f7e45c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/controller/AlumnoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/repository/AlumnoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/service/AlumnoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/service/AlumnoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/src/main/java/com/co/serna/gateway/MicroservicioGatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/src/test/java/com/co/serna/gateway/ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroservicioSpringCommons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicioSpringCommons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroservicioSpringCommons/src/main/java/com/serna/commons/service/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicioSpringCommons/src/main/java/com/serna/commons/service/CommonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroservicioSpringCommons/src/main/java/com/serna/commons/service/CommonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicioSpringCommons/src/main/java/com/serna/commons/service/CommonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/com/co/serna/microservicio/eureka/MicroservicioEurekaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/test/java/com/co/serna/microservicio/eureka/MicroservicioEurekaApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/src/main/java/com/co/serna/usuario/MicroservicioUsuarioApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/src/main/java/com/co/serna/usuario/controller/AlumnoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/src/main/java/com/co/serna/usuario/entity/Alumno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/src/main/java/com/co/serna/usuario/repository/AlumnoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/src/main/java/com/co/serna/usuario/service/AlumnoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/src/main/java/com/co/serna/usuario/service/AlumnoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/src/test/java/com/co/serna/usuario/MicroservicioUsuarioApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroservicioSpringCommons/src/main/java/com/serna/commons/controller/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/controller/AlumnoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/controller/AlumnoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/service/AlumnoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/service/AlumnoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +52,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Juan\Desktop\_\Final\MicroservicioSpringCommons\src\main\java\com\serna\commons\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.serna.commons.controller" />
     </key>
   </component>
   <component name="RunAnythingCache">
