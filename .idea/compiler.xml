@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
+        <module name="MicroservicioCurso" />
         <module name="MicroservicioUsuarios" />
         <module name="eureka-server" />
         <module name="MicroservicioSpringCommons" />
@@ -15,6 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MicroservicioCurso" options="-parameters" />
       <module name="MicroservicioSpringCommons" options="-parameters" />
       <module name="MicroservicioUsuarios" options="-parameters" />
       <module name="api-gateway" options="-parameters" />

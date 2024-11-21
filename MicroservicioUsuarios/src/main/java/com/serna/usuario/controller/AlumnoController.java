@@ -14,13 +14,8 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/alumnos")
+@RequestMapping("/")
 public class AlumnoController extends CommonController<Alumno, AlumnoService> {
-
-    @Autowired
-    public AlumnoController(AlumnoService service) {
-        super(service);
-    }
 
     @Value("${config.balanceador.test}")
     private String balanceadorTest;
