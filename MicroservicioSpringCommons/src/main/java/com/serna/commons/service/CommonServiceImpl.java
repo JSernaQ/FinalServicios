@@ -1,16 +1,17 @@
 package com.serna.commons.service;
 
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
-public class CommonServiceImpl<E , R extends CrudRepository<E, Long>> implements CommonService<E> {
+public class CommonServiceImpl<E, R extends CrudRepository<E, Long>> implements CommonService<E> {
 
-    @Autowired
-    private R dao;
+    private final R dao;
+
+    public CommonServiceImpl(R dao) {
+        this.dao = dao;
+    }
 
     @Override
     @Transactional(readOnly = true)

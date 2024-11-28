@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="344f5b8f-f92c-469f-9e37-f20a15f7e45c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MicroservicioCurso/src/main/java/com/serna/curso/controller/CursoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroservicioCurso/src/main/java/com/serna/curso/models/entity/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroservicioCurso/src/main/java/com/serna/curso/repository/CursoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroservicioCurso/src/main/java/com/serna/curso/service/CursoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MicroservicioCurso/src/main/java/com/serna/curso/service/CursoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroservicioSpringCommons/src/main/java/com/serna/commons/controller/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicioSpringCommons/src/main/java/com/serna/commons/controller/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/controller/AlumnoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/java/com/serna/usuario/controller/AlumnoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicioUsuarios/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2p8aGf5I3Qmpww0l4NFGGiYw1bR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApiGatewayApplication.executor": "Run",
+    "Application.EurekaServerApplication.executor": "Run",
+    "Application.MicroservicioCursoApplication.executor": "Run",
+    "Application.MicroservicioUsuariosApplication.executor": "Run",
+    "Maven.api-gateway [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Juan/Desktop/_/Final/MicroservicioSpringCommons/src/main/java/com/serna/commons/service",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Juan\Desktop\_\Final\MicroservicioSpringCommons\src\main\java\com\serna\commons\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.serna.commons.controller" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.serna.gateway.ApiGatewayApplication" />
+      <module name="api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.serna.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coom.serna.eureka.EurekaServerApplication" />
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coom.serna.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicioCursoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.serna.curso.MicroservicioCursoApplication" />
+      <module name="MicroservicioCurso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.serna.curso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicioUsuariosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.serna.usuario.MicroservicioUsuariosApplication" />
+      <module name="MicroservicioUsuarios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.serna.usuario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.MicroservicioCursoApplication" />
+        <item itemvalue="Application.MicroservicioUsuariosApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="344f5b8f-f92c-469f-9e37-f20a15f7e45c" name="Changes" comment="" />
+      <created>1732150068501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732150068501</updated>
+    </task>
+    <servers />
+  </component>
+</project>

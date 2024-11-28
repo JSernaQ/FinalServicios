@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo (2) (com.co.serna.usuario)" />
-        <module name="demo (1) (com.co.serna.eureka)" />
-        <module name="demo" />
+        <module name="api-gateway" />
+        <module name="MicroservicioCurso" />
+        <module name="MicroservicioUsuarios" />
+        <module name="eureka-server" />
         <module name="MicroservicioSpringCommons" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MicroservicioCurso" options="-parameters" />
       <module name="MicroservicioSpringCommons" options="-parameters" />
-      <module name="demo" options="-parameters" />
-      <module name="demo (1) (com.co.serna.eureka)" options="-parameters" />
-      <module name="demo (2) (com.co.serna.usuario)" options="-parameters" />
+      <module name="MicroservicioUsuarios" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
     </option>
   </component>
 </project>
